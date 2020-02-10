@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2027
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Amazon.Kinesis.ClientLibrary", "Amazon.Kinesis.ClientLibrary", "{6A5832F9-5282-4942-AB13-0F1D4D391BB2}"
+	ProjectSection(SolutionItems) = preProject
+		build.cake = build.cake
+		build.ps1 = build.ps1
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bootstrap", "Bootstrap\Bootstrap.csproj", "{6F631BD8-5530-4E0E-B5BB-3CFC9710BB90}"
 EndProject
@@ -13,7 +17,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleProducer", "SamplePro
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleConsumer", "SampleConsumer\SampleConsumer.csproj", "{83F76D79-CA64-45D6-978B-AB6528F1D4F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientLibrary.Test", "ClientLibrary.Test\ClientLibrary.Test.csproj", "{40800B0A-FAF7-4DE2-92C6-2057A5901E71}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientLibrary.Test", "ClientLibrary.Test\ClientLibrary.Test.csproj", "{40800B0A-FAF7-4DE2-92C6-2057A5901E71}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

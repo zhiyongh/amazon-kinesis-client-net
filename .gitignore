@@ -196,3 +196,7 @@ FakesAssemblies/
 *.opt
 
 .DS_Store
+# downloaded jar files from bootstrap
+jars/
+# downloaded tools at build
+tools/
